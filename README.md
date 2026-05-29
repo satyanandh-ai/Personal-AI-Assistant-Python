@@ -33,6 +33,9 @@ python main.py
 - Voice Input
 - GUI Interface
 - AI Chat Integration
+## Screenshot
+
+(screenshot.png)
 
 
 ## Author

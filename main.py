@@ -57,17 +57,17 @@ while True:
 
     elif "send whatsapp message" in command:
 
-    phone = input("Enter phone number: ")
-    message = input("Enter message: ")
+        phone = input("Enter phone number: ")
+        message = input("Enter message: ")
 
-    pywhatkit.sendwhatmsg(
-        phone,
-        message,
-        19,
-        12
-    )
+        pywhatkit.sendwhatmsg(
+            phone,
+            message,
+            19,
+            12
+        )
 
-    speak("Sending WhatsApp message")
+        speak("Sending WhatsApp message")
 
     else:
         speak("I don't understand.")
